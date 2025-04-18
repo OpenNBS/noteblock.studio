@@ -281,7 +281,7 @@ permalink: /nbs
 						<td>Layer lock</td>
 						<td>Whether or not this layer has been marked as locked. 1 = locked.</td>
 					</tr>
-					<tr class="newversion">
+					<tr>
 						<td>Byte</td>
 						<td>Layer volume</td>
 						<td>The volume of the layer (percentage). Ranges from 0-100.</td>
