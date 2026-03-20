@@ -45,7 +45,7 @@ permalink: /nbs
 					<li>The byte after the NBS version is now the amount of vanilla instruments.<br>
 					This change was necessary because, previously, the program didn't know when the custom instruments began. It always went up to 9, and everything after that was treated as a custom instrument.</li></ul>
 					<strong>Classic (Version 0):</strong> 
-					<ul><li>This version is used by the original Minecraft Note Block Studio, which precedes the transition to Open Note Block Studio. You can find the original specification <a href="https://www.stuffbydavid.com/mcnbs/format" target="_blank">here</a>.</li>					
+					<ul><li>This version is used by the original Minecraft Note Block Studio, which precedes the transition to Open Note Block Studio. You can find the original specification <a href="https://web.archive.org/web/20190521202304/https://www.stuffbydavid.com/mcnbs/format" target="_blank">here</a>.</li>					
 					</ul>
 				</div>
 			</div>
