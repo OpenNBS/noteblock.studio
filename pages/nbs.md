@@ -29,6 +29,10 @@ permalink: /nbs
 			<div class="col-md-5">
 				<h2>NBS Changelog</h2>
 				<div>
+                    <strong>Version 6:</strong>
+                    <ul><li>The built-in instrument count changed from 16 to 20, to accomodate for the four new trumpet instruments.</li>
+                    <li>Because of that, the maximum custom instrument count have been decreased to 236.</li>
+                    <li>No fields have been added or removed, so version 6 files may be read identically to version 5 and 4.</li></ul>
 					<strong>Version 5:</strong>
 					<ul><li>May now hold up to 240 custom instruments, previously 18.</li>
 					<li>The path to custom sound files may contain slash characters, as a result of allowing custom sounds to be loaded from subfolders.</li>
@@ -226,7 +230,11 @@ permalink: /nbs
 								<strong>12 = </strong>Didgeridoo (Pumpkin)<br>
 								<strong>13 = </strong>Bit (Block of Emerald)<br>
 								<strong>14 = </strong>Banjo (Hay)<br>
-								<strong>15 = </strong>Pling (Glowstone)
+								<strong>15 = </strong>Pling (Glowstone)<br>
+                                <strong>16 = </strong>Trumpet (Block of Copper)<br>
+                                <strong>17 = </strong>Exposed Trumpet (Exposed Copper)<br>
+                                <strong>18 = </strong>Weathered Trumpet (Weathered Copper)<br>
+                                <strong>19 = </strong>Oxidized Trumpet (Oxidized Copper)
 							</span>
 						</td>
 					</tr>
@@ -297,7 +305,7 @@ permalink: /nbs
 		<hr>
 		<h2 id="part4">Part 4: Custom instruments</h2>
 		<p>Finally, the custom instruments of the song are stored. Like the previous part, this is optional. You can stop writing here and the song will still be loaded.<br><br>
-			A song can have a maximum of <span class="newversion">240</span> custom instruments, each with a name and sound file assigned to it. The sound file must be located in the /Sounds folder of the Minecraft Note Block Studio directory.
+			A song can have a maximum of <span class="newversion">236</span> custom instruments, each with a name and sound file assigned to it. The sound file must be located in the /Sounds folder of the Minecraft Note Block Studio directory.
 		Before we begin, we need to know the amount of custom instruments:</p>
 		<div class="table-wrapper">
 			<table class="alt">
@@ -312,7 +320,7 @@ permalink: /nbs
 					<tr>
 						<td>Byte (unsigned)</td>
 						<td>Custom instruments</td>
-						<td>The amount of custom instruments (0-<span class="newversion">240</span>).</td>
+						<td>The amount of custom instruments (0-<span class="newversion">236</span>).</td>
 					</tr>
 				</tbody>
 			</table>
