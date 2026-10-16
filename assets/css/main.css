@@ -1325,6 +1325,54 @@
 
 	}
 
+	/* Supporters */
+
+	#supporters {
+		background-color: #323037;
+		padding: 3em 0;
+		text-align: center;
+	}
+
+	#supporters .supporters-label {
+		color: #aaa;
+		font-size: 1em;
+		letter-spacing: 0.1em;
+		margin-bottom: 1.5em;
+		text-transform: uppercase;
+	}
+
+	#supporters .supporters-logo {
+		display: inline-block;
+		-moz-transition: opacity 0.2s ease-in-out;
+		-webkit-transition: opacity 0.2s ease-in-out;
+		-ms-transition: opacity 0.2s ease-in-out;
+		transition: opacity 0.2s ease-in-out;
+	}
+
+	#supporters .supporters-logo:hover {
+		opacity: 0.8;
+	}
+
+	#supporters .supporters-logo img {
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		max-width: 180px;
+		width: 100%;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#supporters {
+			padding: 2.5em 1.5em;
+		}
+
+		#supporters .supporters-logo img {
+			max-width: 140px;
+		}
+
+	}
+
 	/* Header */
 
 	#header {

@@ -7,6 +7,14 @@
 		<li><a href="{{'/changelog' | absolute_url}}" class="button">View changelog</a></li>
 	</ul>
 </section>
+<section id="supporters" class="wrapper special">
+	<div class="container">
+		<p class="supporters-label">OpenNBS is proudly supported by</p>
+		<a href="https://tuta.com" target="_blank" rel="noopener noreferrer" class="supporters-logo">
+			<img src="{{ '/images/tuta_logo_white.svg' | absolute_url }}" alt="Tuta" />
+		</a>
+	</div>
+</section>
 <section id="one" class="wrapper style2 special">
 	<div class="container">
 		<div class="row">
