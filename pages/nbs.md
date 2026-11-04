@@ -213,7 +213,7 @@ permalink: /nbs
 					<tr>
 						<td>Byte</td>
 						<td>Note block instrument</td>
-						<td>The instrument of the note block. This is 0-15, or higher if the song uses custom instruments.<br>
+						<td>The instrument of the note block. This is 0-19, or higher if the song uses custom instruments.<br>
 							<strong>0 = </strong>Piano (Air)<br>
 							<strong>1 = </strong>Double Bass (Wood)<br>
 							<strong>2 = </strong>Bass Drum (Stone)<br>
